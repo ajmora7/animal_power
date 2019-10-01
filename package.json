@@ -1,0 +1,19 @@
+{
+  "name": "animal_power",
+  "version": "1.0.0",
+  "description": "Converts horspower to various animal \"powers\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/ajmora7/animal_power.git"
+  },
+  "author": "Andrew Mora",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
