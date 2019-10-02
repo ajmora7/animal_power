@@ -1,5 +1,3 @@
-const convert = require("../convert.js");
-
 var appRouter = function (app) { 
 	app.get("/", function(req, res) {
 		res.status(200).send("Welcome to Animal Power!");
@@ -22,8 +20,7 @@ var appRouter = function (app) {
 			var data = ({
 				animal: animal,
 				avgWeight: "79",
-				power: +(convert.convert(79).toFixed(4)),
-				//toHP: convert.toHP(+(convert.convert(79).toFixed(4)))
+				power: "0.1001",
 				toHP: "0.9900" 
 			});
 			res.status(200).send(data);
