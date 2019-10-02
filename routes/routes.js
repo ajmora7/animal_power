@@ -32,13 +32,21 @@ var appRouter = function (app) {
 				toHP: "3.2206"
 			});
 			res.status(200).send(data);
-		} else {
+		} else if (animal == "bear") {
 			var data = ({
 				animal: animal,
 				avgWeight: "478",
 				power: "0.3862",
 				toHP: "2.5893"
 			})
+			res.status(200).send(data);
+		} else {
+			var data = ({
+				animal: "horse",
+				avgWeight: "1700",
+				power: "1",
+				toHP: "1",
+			});
 			res.status(200).send(data);
 		}
 	});
